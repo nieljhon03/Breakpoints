@@ -1,0 +1,72 @@
+/* Responsive Background Colors */
+body {
+  background-color: red;
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: orange;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    background-color: white;
+  }
+}
+
+/* Typography Styling */
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.author {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Custom Button Styling */
+.btn.task-btn {
+  background-color: red !important;
+  color: yellow !important;
+  border: none !important;
+  padding: 14px 28px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: 0.3s ease;
+}
+
+.btn.task-btn:hover {
+  opacity: 0.9;
+}
+
+.btn.task-btn {
+  background-color: red !important;
+  color: yellow !important;
+  padding: 14px 28px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  border: none !important;
+  transition: 0.3s ease;
+}
